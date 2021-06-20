@@ -17,12 +17,12 @@
 <body>
     <div class="container create_cont">
         <div>
-            <a href="/" class="btn btn-warning mt-5 mb-4">Return<i class="fas fa-arrow-circle-left pl-2"></i></a>
+            <a href="/" class="btn btn-warning mt-5 mb-4"><i class="fas fa-arrow-circle-left pr-2"></i>Return</a>
         </div>
 
         <form action="../update_list/{{$todo_array->id}}">
             <textarea type="text" name='name' value='{{$todo_array->name}}' placeholder="Edit task" class="form-control"></textarea>
-            <button type="submit" value='save' class="btn btn-primary mt-4 mb-5">Save</button>
+            <button type="submit" value='save' class="btn btn-primary mt-4 mb-5">Save<i class="fas fa-save pl-2"></i></button>
         </form>
     </div>
 

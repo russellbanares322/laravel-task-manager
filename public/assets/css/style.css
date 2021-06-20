@@ -27,3 +27,14 @@ body {
         rgba(255, 255, 255, 1) 100%
     );
 }
+
+.mn_row {
+    margin-left: 1px;
+}
+
+.main_content {
+    transition: 0.9s;
+}
+.main_content:hover {
+    transform: translateY(-5px);
+}

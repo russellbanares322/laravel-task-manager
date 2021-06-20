@@ -20,25 +20,25 @@
       <a href="create" class="btn btn-primary mb-3 mt-4">Create Task<i class="fas fa-plus-circle pl-2"></i></a>
     </div>
 
-    <div class="col-lg-12">
-      <div class="row">
-        <div class="col-lg-3"><strong>Id</strong></div>
-        <div class="col-lg-3"><strong>Task</strong></div>
-        <div class="col-lg-3"><strong>Created at</strong></div>
-        <div class="col-lg-3"><strong>Action</strong></div>
+    <div class="col-lg-12 d-none d-sm-none d-md-none d-lg-block">
+      <div class="row mn_row">
+        <div class="col-lg-3 mb-4">Id</div>
+        <div class="col-lg-3 mb-4">Task</div>
+        <div class="col-lg-3 mb-4">Created at</div>
+        <div class="col-lg-3 mb-4">Action</div>
       </div>
     </div>
 
     @foreach($todo_array as $ta)
 
 
-    <div class="col-lg-12 pb-4 mt-4">
+    <div class="col-lg-12 pb-4 mt-4 main_content">
       <div class="card border-dark">
-        <div class="card-body card_bdy">
-          <div class="row">
-            <div class="col-lg-3">{{$ta->id}}</div>
-            <div class="col-lg-3">{{$ta->name}}</div>
-            <div class="col-lg-3">{{$ta->updated_at}} </div>
+        <div class="card-body card_bdy  shadow p-3 rounded">
+          <div class="row sn_row">
+            <div class="col-lg-3"><strong>{{$ta->id}}</strong></div>
+            <div class="col-lg-3"><strong>{{$ta->name}}</strong></div>
+            <div class="col-lg-3"><strong>{{$ta->updated_at}}</strong></div>
             <div class="col-lg-3"><a href="delete/{{$ta->id}}" class="btn btn-danger">Delete<i class="fas fa-trash pl-2"></i></a> <a href="edit/{{$ta->id}}" class="btn btn-primary ml-1">Edit<i class="fas fa-edit pl-2"></i></a></div>
 
           </div>
