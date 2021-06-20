@@ -36,5 +36,5 @@ body {
     transition: 0.9s;
 }
 .main_content:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
 }
