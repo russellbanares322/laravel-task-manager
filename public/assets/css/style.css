@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(
+        90deg,
+        rgba(160, 227, 182, 1) 0%,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(2, 27, 33, 1) 0%
+    );
+}
+
+.container {
+    background-color: #e0eafc;
+    margin-top: 60px;
+}
+
+.create_cont {
+    margin-top: 200px;
+}
+
+.card_bdy {
+    background: linear-gradient(
+        90deg,
+        rgba(100, 145, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 100%,
+        rgba(160, 227, 182, 1) 100%,
+        rgba(86, 223, 255, 1) 100%,
+        rgba(255, 255, 255, 1) 100%
+    );
+}
