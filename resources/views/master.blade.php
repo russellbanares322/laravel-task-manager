@@ -30,8 +30,6 @@
     </div>
 
     @foreach($todo_array as $ta)
-
-
     <div class="col-lg-12 pb-4 mt-4 main_content">
       <div class="card border-dark">
         <div class="card-body card_bdy  shadow p-3 rounded">
@@ -40,7 +38,6 @@
             <div class="col-lg-3"><strong>{{$ta->name}}</strong></div>
             <div class="col-lg-3"><strong>{{$ta->updated_at}}</strong></div>
             <div class="col-lg-3"><a href="delete/{{$ta->id}}" class="btn btn-danger">Delete<i class="fas fa-trash pl-2"></i></a> <a href="edit/{{$ta->id}}" class="btn btn-primary ml-1">Edit<i class="fas fa-edit pl-2"></i></a></div>
-
           </div>
         </div>
       </div>
